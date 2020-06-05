@@ -1,8 +1,4 @@
-/*
- * Jordan B. Sears
- * Email: jordanbradfordsears@gmail.com
- * RIP Terry
- */
+
 package platformer;
 
 /**

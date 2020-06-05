@@ -1,8 +1,4 @@
-/*
- * Jordan B. Sears
- * Email: jordanbradfordsears@gmail.com
- * RIP Terry
- */
+
 package platformer;
 
 /**
@@ -84,7 +80,9 @@ public class StartScreen extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void startButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_startButtonActionPerformed
-        // TODO add your handling code here:
+        GameForm g = new GameForm();
+        g.setVisible(true);
+        this.dispose();
     }//GEN-LAST:event_startButtonActionPerformed
 
     /**
